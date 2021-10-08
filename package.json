@@ -1,0 +1,12 @@
+{
+  "name": "postman-newman-jenkings",
+  "version": "1.0.0",
+  "description": "project for stating postman test",
+  "scripts": {
+    "api-test-production": "newman run tests/jsonplaceholder.postman_collection.json"
+  },
+  "author": "Akash",
+  "dependencies": {
+    "newman": "^5.3.0"
+  }
+}
